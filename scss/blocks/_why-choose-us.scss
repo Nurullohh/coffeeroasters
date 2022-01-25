@@ -1,0 +1,39 @@
+.why-choose-us__container{
+    width: 1280px;
+    background-color: $dark-blue;
+    margin-top: 200px;
+    padding-top: 100px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.why-choose-us__span{
+    width: 540px;
+    display: inline-block;
+    margin-bottom: 231px;
+    
+}
+
+.why-choose-us__name{
+    font-family: 'Fraunces', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    
+    
+}
+
+.why-choose-us__description{
+    width: 540px; ;
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    margin-bottom: 86px;
+    
+
+}

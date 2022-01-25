@@ -3,3 +3,8 @@
     padding: 0;
     list-style: none; 
 }
+
+@mixin remov_p_m{
+    margin: 0;
+    padding: 0;
+}

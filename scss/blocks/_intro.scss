@@ -1,0 +1,43 @@
+.intro{
+    width: 1280px;
+    height: 600px;
+    background-image: url(../img/intro-home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    padding-top: 117px;
+    padding-left: 85px;
+}
+
+.intro__container{
+    width: 493px;
+}
+
+.intro__title{
+    @include remov_p_m;
+    width: 493px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+
+}
+
+.intro__description{
+    width: 440px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+    margin-top: 32px;
+    margin-bottom: 56px;
+
+}
+
+.intro__link{
+    display:inline-block;
+}

@@ -1,0 +1,48 @@
+.footer{
+    width: 1280px ;
+    margin-top: 200px;
+    background-color: $dark_blue;
+    display: flex;
+    padding-top:47px ;
+    padding-bottom: 48px;
+    margin-bottom: 88px ;
+}
+
+.footer__logo{
+    margin-left: 85px;
+
+}
+
+
+.footer__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer__nav-list{
+    display: flex;
+    margin-left: 103px;
+}
+
+.nav-media{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+
+}
+
+.nav-media__list{
+    @include reset-list;
+    display: flex;
+    margin-right: 85px;
+}
+
+
+.nav-media__items{
+    @include reset-list;
+    margin-right: 24px;
+}
+

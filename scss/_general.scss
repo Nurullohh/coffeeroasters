@@ -1,4 +1,46 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 
 body{
-    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333D4B;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #F2F2F2;
 }
+
+main{
+    flex-grow: 1;
+}
+    
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+
+
+
+
